@@ -59,7 +59,7 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Dream companies | List names or say open to suggestions |
 | Application mode | Auto-apply within my rules, prepare applications for me, or search only |
 | Auto-apply exclusions | If Auto-apply is selected, ask what to skip using the question below |
-| Auto-apply limits | Confirm allowed destinations, the maximum submissions per day or week, and which résumé files and factual answers may be shared |
+| Auto-apply permission | Confirm allowed destinations and which résumé files and factual answers may be shared |
 | Work setup and location | Remote, hybrid, or in person. Include eligible locations, commute or relocation limits, and time zones if relevant |
 | Pay floor and target | Amount, currency, and annual base or hourly. Say whether to include roles with undisclosed pay |
 | Work authorization | Countries where you can work and where you need sponsorship. Yes, no, or unsure is enough |
@@ -101,7 +101,7 @@ Show why each role fits and what to double-check. Keep the match label separate 
 
 For a selected role, compare the core job requirements against the résumé and brag doc. For each requirement, show **Supported**, **Partial**, or **Gap**, cite the relevant experience, and explain the difference. Use verified information to suggest revised bullets and choose relevant projects. Match the master résumé’s tone, depth, and structure. Save each tailored résumé as a separate document and keep the master as the reference. For a real gap, suggest a scoped portfolio project with a deliverable and the skill it would demonstrate. Never invent experience, metrics, or work authorization answers.
 
-Offer **Auto-apply** during guided setup. Get the user's explicit opt-in and confirm their standing rules once, including excluded companies and job types, allowed destinations, application cap, and approved résumé files and factual answers. Recheck the latest confirmed Skills & Preferences before every run. For any role that matches an Auto-apply exclusion, mark **User will apply** and surface the link and deadline.
+Offer **Auto-apply** during guided setup. Get the user's explicit opt-in and confirm their standing rules once, including excluded companies and job types, allowed destinations and approved résumé files and factual answers. Recheck the latest confirmed Skills & Preferences before every run. For any role that matches an Auto-apply exclusion, mark **User will apply** and surface the link and deadline.
 
 When Auto-apply is active, submit green matches that meet all standing rules without asking for routine per-job approval where the platform and site permit unattended submission. Check that the posting is open and the requisition has not already been submitted. Use only approved materials and verified answers. Put applications that require a fresh approval, unsupported access, a new disclosure or attestation, or a missing answer in **Needs user action** with the reason and direct link. Before retrying an uncertain submission, check for a confirmation or hand off to the user to avoid applying twice.
 
