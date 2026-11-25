@@ -54,7 +54,7 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Include contract, freelance, or part-time roles? | Choose any, or select full-time only. Optionally add a minimum hourly rate or preferred hours |
 | Include fellowships or apprenticeships? | Choose either, both, or skip. The agent uses your work history, skills, and career stage to find suitable programs |
 | Master résumé | Attach your preferred résumé privately or select a Drive file. This is the reference for your writing style, level of detail, formatting, and structure |
-| Ideal titles and level | e.g. Creative Strategist or Senior Social Producer |
+| Target titles | Immediately after reading the master résumé, suggest 10 numbered titles and ask which numbers to remove or what to add. Accept **Keep all** |
 | Industries and company type | e.g. games, media, AI startups, agencies. Include any industries to avoid |
 | Dream companies | List names or say open to suggestions |
 | Application mode | Auto-apply within my rules, prepare applications for me, or search only |
@@ -73,7 +73,11 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 
 **What’s a brag doc?** It’s a private inventory of work you’ve done. Old résumés, campaigns, side projects, feedback, and small wins all count. A résumé has limited space. A brag doc lets the agent pull a stronger, relevant example for each role. To build one, offer to review user-selected materials and ask what they did, which tools they used, and what changed. Record the project, contribution, outcome, and evidence. Mark estimates and unverified details for review. Work can be worth including even when it has no metric.
 
-Suggest up to six related titles based on the user’s evidence, with a short reason for each. Let the user choose which to search.
+### Suggest titles from the master résumé
+
+As soon as the master résumé is available, read it and suggest **10 distinct, numbered job titles**, with the closest matches first. Infer an appropriate level from the experience and scope shown. Include adjacent titles when the résumé supports transferable skills, and label any stretch title. Give each title a short reason grounded in the résumé. If the file is unreadable, ask for a readable copy.
+
+Ask only: **Which numbers should I remove, and are there any titles you want to add?** Accept responses such as **Remove 3 and 7, add Brand Strategist**, or **Keep all**. Show the resulting list, save the confirmed titles in Skills & Preferences once the sheet is created, and continue to the next intake question.
 
 ## 3. Search and match
 
