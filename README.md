@@ -81,6 +81,7 @@ Use the name the user supplies for **[Name] Job Search**. Reuse a designated wor
 - **Interview Briefings/** — one rolling document per company and role. Name it **Company — Role — Interview Briefing**.
 - **Job Search Tracker** — a Google Sheet with **Jobs** and **Applications** tabs.
 - **Contacts** — a separate Google Sheet inside **[Name] Job Search**.
+- **Skills & Preferences** — a separate Google Sheet inside **[Name] Job Search** that the agent reads and updates across runs.
 
 **Jobs fields:** Job ID, company, title, location, work setup, pay and currency, sponsorship, match, fit evidence, gaps, posting URL, deadline, date found, last checked, next action.
 
@@ -89,6 +90,15 @@ Use the name the user supplies for **[Name] Job Search**. Reuse a designated wor
 **Contacts fields:** Name, email if present, company at the time, relationship, role or round, last interaction, source thread, verified public LinkedIn URL if found, follow-up notes.
 
 Ask which email date range, labels, or companies to check. Pull contacts from relevant recruiter, referral, and interview threads. Propose new or changed records for review, then write approved updates. Merge on normalized email or reviewed identity. Preserve older company relationships and user notes. On each later approved email scan, update the same Contacts sheet with new people and newer interactions. Retain private source references and keep original messages in email.
+
+### Keep Skills & Preferences current
+
+Create or reuse a single private **Skills & Preferences** spreadsheet after intake. Save its link with the automation setup. Use two tabs:
+
+- **Skills** — skill, evidence or project, source link, confirmed or needs review, date last updated. Seed it from the master résumé and any user-approved brag doc or portfolio. Add new evidence when the user shares an accomplishment, project, tool, or interview example. Merge duplicates and keep useful source references.
+- **Preferences** — topic, current value, must-have or preference, source, confirmed or suggested, date last updated. Seed it with the intake answers. Record later explicit corrections and feedback, including titles, industries, pay, location, work setup, work authorization, company exclusions, and email preferences. Keep one active confirmed value per setting and retain superseded values as history when useful.
+
+At the start of every manual or scheduled run, read both tabs and use the latest confirmed entries. Ask only for missing, ambiguous, or conflicting information that affects the task. After a run, save meaningful confirmed changes and queue inferred patterns for review in the next brief. A single skipped job is not automatically a new deal-breaker. Never silently change hard constraints or recurring schedules based on a guess. If the sheet is unavailable, surface the access issue and avoid treating stale settings as current for consequential actions.
 
 ## 6. Handle recruiter replies and scheduling
 
@@ -114,7 +124,7 @@ Use one rolling briefing per company and role. Link it from the Applications tab
 ## 8. Activate automatic mode
 
 1. Run a small first batch. Show the Sheet, up to five leads, one résumé comparison, and any connection gaps. Let the user tune the match rules and approve the schedules and notification channel once.
-2. Register the actual background jobs using the platform’s scheduler. Set up recurring searches and tracker updates, recruiting inbox checks or a supported email trigger, and separate progress briefs. If the platform needs separate tasks, have each use the same private tracker and approved configuration. Verify that scheduled runs can access the required connectors and notify the user while the chat is closed. Report each task’s schedule and next run after creation succeeds.
+2. Register the actual background jobs using the platform’s scheduler. Set up recurring searches and tracker updates, recruiting inbox checks or a supported email trigger, and separate progress briefs. If the platform needs separate tasks, have each use the same private tracker, Skills & Preferences sheet, and approved configuration. Verify that scheduled runs can access the required connectors and notify the user while the chat is closed. Report each task’s schedule and next run after creation succeeds.
 3. On inbox runs, reconcile application and contact updates, draft replies, and proactively ping for scheduling or send approval. For confirmed interviews, refresh the briefing and arrange a post-interview debrief prompt with a one-time task, or have the recurring check notice interviews that have ended and prompt once. Apply approved updates and incorporate the user’s notes as they arrive.
 4. Keep a last successful run time and use posting IDs, message IDs, or event IDs to avoid duplicate rows, replies, calendar events, and notifications. If a connection expires or a run is blocked, notify the user with the specific fix. Show how to pause, resume, or change the schedules.
 
