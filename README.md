@@ -58,8 +58,8 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Industries and company type | e.g. games, media, AI startups, agencies. Include any industries to avoid |
 | Dream companies | List names or say open to suggestions |
 | Application mode | Auto-apply within my rules, prepare applications for me, or search only |
-| Auto-apply rules | If selected, choose allowed job types and destinations, the maximum submissions per day or week, and which résumé files and factual answers may be shared |
-| I’ll apply myself | Companies or roles the agent should flag for you |
+| Auto-apply exclusions | If Auto-apply is selected, ask what to skip using the question below |
+| Auto-apply limits | Confirm allowed destinations, the maximum submissions per day or week, and which résumé files and factual answers may be shared |
 | Work setup and location | Remote, hybrid, or in person. Include eligible locations, commute or relocation limits, and time zones if relevant |
 | Pay floor and target | Amount, currency, and annual base or hourly. Say whether to include roles with undisclosed pay |
 | Work authorization | Countries where you can work and where you need sponsorship. Yes, no, or unsure is enough |
@@ -72,6 +72,10 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Inbox check cadence | Use a new-email trigger when available, or choose how often to check relevant recruiting threads |
 
 **What’s a brag doc?** It’s a private inventory of work you’ve done. Old résumés, campaigns, side projects, feedback, and small wins all count. A résumé has limited space. A brag doc lets the agent pull a stronger, relevant example for each role. To build one, offer to review user-selected materials and ask what they did, which tools they used, and what changed. Record the project, contribution, outcome, and evidence. Mark estimates and unverified details for review. Work can be worth including even when it has no metric.
+
+### Ask what Auto-apply should skip
+
+If the user picks Auto-apply, ask **What should I skip when applying automatically?** Offer **Certain companies**, **Certain job types**, **Both**, or **No exclusions**. When they choose companies, ask **Which companies should I leave for you to apply to yourself?** When they choose job types, show only the types they included in the search, such as contract, fellowship, or full-time, and ask which to skip. If they choose both, ask for companies first, then job types in a separate turn. Keep finding roles in those categories and flag matching exclusions **User will apply**. Treat an empty exclusion list as all selected search categories, subject to the other Auto-apply rules.
 
 ### Suggest titles from the master résumé
 
@@ -97,7 +101,7 @@ Show why each role fits and what to double-check. Keep the match label separate 
 
 For a selected role, compare the core job requirements against the résumé and brag doc. For each requirement, show **Supported**, **Partial**, or **Gap**, cite the relevant experience, and explain the difference. Use verified information to suggest revised bullets and choose relevant projects. Match the master résumé’s tone, depth, and structure. Save each tailored résumé as a separate document and keep the master as the reference. For a real gap, suggest a scoped portfolio project with a deliverable and the skill it would demonstrate. Never invent experience, metrics, or work authorization answers.
 
-Offer **Auto-apply** during guided setup. Get the user's explicit opt-in and confirm their standing rules once, including allowed job types, destinations, application cap, approved résumé files and factual answers, and companies they will handle themselves. Recheck the latest confirmed Skills & Preferences before every run. For companies on the **I’ll apply myself** list, mark **User will apply** and surface the link and deadline.
+Offer **Auto-apply** during guided setup. Get the user's explicit opt-in and confirm their standing rules once, including excluded companies and job types, allowed destinations, application cap, and approved résumé files and factual answers. Recheck the latest confirmed Skills & Preferences before every run. For any role that matches an Auto-apply exclusion, mark **User will apply** and surface the link and deadline.
 
 When Auto-apply is active, submit green matches that meet all standing rules without asking for routine per-job approval where the platform and site permit unattended submission. Check that the posting is open and the requisition has not already been submitted. Use only approved materials and verified answers. Put applications that require a fresh approval, unsupported access, a new disclosure or attestation, or a missing answer in **Needs user action** with the reason and direct link. Before retrying an uncertain submission, check for a confirmation or hand off to the user to avoid applying twice.
 
