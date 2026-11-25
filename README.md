@@ -31,6 +31,8 @@ Present the whole form in one message. Accept short answers and let the user ski
 
 | Fill in | Your answer |
 | --- | --- |
+| Include contract, freelance, or part-time roles? | Choose any, or select full-time only. Optionally add a minimum hourly rate or preferred hours |
+| Include fellowships or apprenticeships? | Choose either, both, or skip. The agent uses your work history, skills, and career stage to find suitable programs |
 | Master résumé | Attach your preferred résumé privately or select a Drive file. This is the reference for your writing style, level of detail, formatting, and structure |
 | Ideal titles and level | e.g. Creative Strategist or Senior Social Producer |
 | Industries and company type | e.g. games, media, AI startups, agencies. Include any industries to avoid |
@@ -39,7 +41,7 @@ Present the whole form in one message. Accept short answers and let the user ski
 | Work setup and location | Remote, hybrid, or in person. Include eligible locations, commute or relocation limits, and time zones if relevant |
 | Pay floor and target | Amount, currency, and annual base or hourly. Say whether to include roles with undisclosed pay |
 | Work authorization | Countries where you can work and where you need sponsorship. Yes, no, or unsure is enough |
-| Job type and deal-breakers | Full-time, contract, or freelance. Add must-haves or exclusions |
+| Other deal-breakers | Add must-haves or exclusions |
 | Search cadence | On demand, weekdays, weekly, or custom |
 | Progress brief | After each run, weekly, or custom. Include preferred day, time, time zone, and destination |
 | Brag doc or portfolio, optional | Attach privately, ask for help building one, or skip |
@@ -60,6 +62,8 @@ Search chosen titles across employer career pages, public job boards, startup bo
 | 🟢 Strong | Résumé evidence supports the core requirements, stated work constraints fit, and verified compensation meets the user’s floor |
 | 🔵 Worth checking | Promising role with unknown pay, a pay range that crosses the floor, unclear sponsorship, or a key requirement to verify |
 | 🟠 Stretch | Material experience gap or confirmed compensation below the floor, shown only if the user wants stretch results |
+
+Search only the employment types and programs the user selected. For contract, freelance, and part-time roles, surface expected hours, duration, work setup, and pay in the units published. Use the relevant pay floor and flag unknowns. For fellowships and apprenticeships, check the official program listing for eligibility against the user’s work history and career stage, including experience limits, location or work authorization requirements, application deadline, program dates, and pay or stipend. Distinguish confirmed eligibility from details the user needs to verify.
 
 Show why each role fits and what to double-check. Keep the match label separate from the application stage. Treat confirmed hard deal-breakers as exclusions. If no pay floor is set, ask before using green.
 
