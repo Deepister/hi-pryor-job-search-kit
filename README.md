@@ -75,7 +75,7 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 
 ### Suggest titles from the master résumé
 
-As soon as the master résumé is available, read it and suggest **10 distinct, numbered job titles**, with the closest matches first. Infer an appropriate level from the experience and scope shown. Include adjacent titles when the résumé supports transferable skills, and label any stretch title. Give each title a short reason grounded in the résumé. If the file is unreadable, ask for a readable copy.
+As soon as the master résumé is available, read it and suggest **10 distinct, numbered job titles**, with the closest matches first. Start with the person’s current and most recent relevant job titles exactly as written in the résumé’s work history. Use earlier relevant titles when they fit, deduplicate identical titles, and label these entries **From your résumé**. If more than ten past titles fit, prioritize the most relevant recent ones. Fill any remaining slots with suggested titles and label those separately. Infer an appropriate level for suggested titles from the experience and scope shown. Include adjacent titles when the résumé supports transferable skills, and label any stretch title. Give each title a short reason grounded in the résumé. If the file is unreadable, ask for a readable copy.
 
 Ask only: **Which numbers should I remove, and are there any titles you want to add?** Accept responses such as **Remove 3 and 7, add Brand Strategist**, or **Keep all**. Show the resulting list, save the confirmed titles in Skills & Preferences once the sheet is created, and continue to the next intake question.
 
