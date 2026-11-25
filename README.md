@@ -161,3 +161,16 @@ A progress brief summarizes new strong matches, leads awaiting review, interview
 **Fictional role:** Social Creative Producer at Example Games Studio. **🔵 Worth checking.** The candidate’s short-form campaign and editing experience supports the core work. Pay is unpublished, so the next step is to verify the range before treating it as a strong match.
 
 Built by [Deepister](https://github.com/Deepister) for [Hi.Pryor](https://www.instagram.com/hi.pryor/).
+
+
+## Organize Gmail by application stage
+
+During setup, offer Gmail organization and check that the connected tool can create labels and apply or remove them on threads. If enabled, create or reuse a **Job Search** parent label and its three sublabels:
+
+- **Job Search/Applied** — a confirmed submission or application receipt.
+- **Job Search/Interviewing** — an explicit invitation or an interview in progress.
+- **Job Search/Rejected** — an explicit rejection for that application.
+
+On the first scan, process the agreed date range. On later inbox checks, match new recruiting messages to the Applications tracker by requisition ID or by company, role, and thread. Update the tracker from the latest explicit evidence, then apply the matching label to related threads and replace any older Job Search stage label on those threads. Preserve unrelated labels and leave messages in place. Reuse labels and thread IDs across runs.
+
+If the role is unclear or the same thread covers applications in different stages, flag it for review. Silence, a closed posting, or a canceled meeting alone is insufficient evidence of rejection. When there is no matching email, update the tracker. If Gmail access is read-only, keep the tracker current and report that applying labels requires write access.
