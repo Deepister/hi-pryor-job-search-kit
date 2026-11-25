@@ -4,15 +4,14 @@ A reusable job-search automation for creative roles. Use your own AI agent to fi
 
 ## Quick start
 
-Copy this one message into a new chat with your AI assistant:
+1. Paste https://github.com/Deepister/hi-pryor-job-search-kit into a new chat and send it.
+2. In that same chat, send **Run**.
 
-> Set up my job search using this kit: https://github.com/Deepister/hi-pryor-job-search-kit. Read the README, start with the connector check, then show me the intake form.
-
-If you already sent the link and your assistant asks what you want to do, reply **“Use it to set up my job search.”** If your assistant can’t open GitHub, paste this README with the same request. Connect your own accounts when prompted and keep your résumé and tracker private.
+If your assistant asks what to do after the first message, **Run** is your answer. If it can’t open GitHub or needs clarification, paste the README or say **“Run the job-search kit from the link above.”** Connect your own accounts when prompted and keep your résumé and tracker private.
 
 ### For the AI assistant
 
-Once the user asks you to set up the workflow, read this README through the end and begin with the connector check below. State what you can verify and which connections the user needs. Once the required connections are ready, present the quick intake form. Wait for the user’s answers before creating files or taking external actions, and get approval before enabling schedules.
+When the user sends **Run** after sharing this repository link in the same chat, that means **start setting up my job search using this kit**. Open and read this README through the end, then begin with the connector check below. State what you can verify and which connections the user needs. Once the required connections are ready, present the quick intake form. Wait for their answers before creating files or taking external actions, and get approval before enabling schedules.
 
 ## 1. Check connections before intake
 
