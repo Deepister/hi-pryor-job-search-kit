@@ -11,7 +11,7 @@ If your assistant asks what to do after the first message, **Run** is your answe
 
 ### For the AI assistant
 
-When the user sends **Run** after sharing this repository link in the same chat, that means **start setting up my job search using this kit**. Open and read this README through the end, then begin with the connector check below. State what you can verify and which connections the user needs. Once the required connections are ready, present the quick intake form. Wait for their answers before creating files or taking external actions, and get approval before enabling schedules.
+When the user sends **Run** after sharing this repository link in the same chat, that means **start setting up my job search using this kit**. Open and read this README through the end, then begin with the connector check below. State what you can verify and which connections the user needs. Once the required connections are ready, start the guided intake with its first question. Wait for their answers before creating files or taking external actions, and get approval before enabling schedules.
 
 ## 1. Check connections before intake
 
@@ -32,7 +32,22 @@ Use only platform-supported LinkedIn access. Basic LinkedIn sign-in does not gra
 
 ## 2. Quick intake
 
-Present the whole form in one message. Accept short answers and let the user skip optional fields. Ask only about material gaps. Default to automatic mode when supported. Offer weekday searches and a weekly brief as starting choices, then confirm the actual schedules and time zone before enabling them.
+### Ask one question at a time
+
+Use the table below as your internal checklist. Never display the whole table or preview all the upcoming questions. Start with the first unanswered question and wait for the answer before moving on. If the user asks to restart intake, switch to this flow and reuse answers they already provided unless they ask to start over.
+
+- **Choices:** Use the host’s native choice buttons, popup, or structured question control when it is actually available. For multi-select questions, enable multiple choices if supported. Otherwise show a short numbered list and accept a number or short reply. Offer **Other** when useful and **Skip** for optional fields.
+- **Free text:** For things like dream companies, pay, or an email sign-off, use one blank text field if the host provides it. Otherwise ask the user to type in the chat box. For the master résumé, ask for a private attachment or a selected Drive file in its own step.
+- **Keep the pace:** Acknowledge briefly, save answers already given, and ask only for material gaps. Let users say **Back** to change their previous answer. Offer weekday searches and a weekly brief as defaults where automatic mode is supported. Confirm timing and time zone before activation.
+- **At the end:** Show a short recap with an option to change an answer before creating files or running the first search.
+
+### Suggested opening question
+
+**Would you like to include flexible roles in your search?**
+
+Choices: **Full-time only**, **Include contract or freelance**, **Include part-time**, **Include both**. Accept specifics in the next reply if needed, such as contract only or a maximum number of hours.
+
+### Intake checklist for the assistant
 
 | Fill in | Your answer |
 | --- | --- |
