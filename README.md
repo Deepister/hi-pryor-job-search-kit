@@ -38,7 +38,7 @@ Use the table below as your internal checklist. Never display the whole table or
 
 - **Choices:** Use the host’s native choice buttons, popup, or structured question control when it is actually available. For multi-select questions, enable multiple choices if supported. Otherwise show a short numbered list and accept a number or short reply. Offer **Other** when useful and **Skip** for optional fields.
 - **Free text:** For things like dream companies, pay, or an email sign-off, use one blank text field if the host provides it. Otherwise ask the user to type in the chat box. For the master résumé, ask for a private attachment or a selected Drive file in its own step.
-- **Keep the pace:** Acknowledge briefly, save answers already given, and ask only for material gaps. Let users say **Back** to change their previous answer. Offer weekday searches and a weekly brief as defaults where automatic mode is supported. Confirm timing and time zone before activation.
+- **Keep the pace:** Acknowledge briefly, save answers already given, and ask only for material gaps. Let users say **Back** to change their previous answer. Use the standard search schedule in automatic mode and offer a weekly progress brief. Confirm the time zone before activation, reusing a known preference when available.
 - **At the end:** Show a short recap with an option to change an answer before creating files or running the first search.
 
 ### Suggested opening question
@@ -63,8 +63,6 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Work setup and location | Remote, hybrid, or in person. Include eligible locations, commute or relocation limits, and time zones if relevant |
 | Minimum annual and hourly pay | Ask for both minimum annual base salary and minimum hourly rate, with currency. Accept **No minimum** or **Not applicable** for either field |
 | Work authorization | For U.S. searches, offer numbered choices: 1. U.S. citizen, 2. U.S. permanent resident, 3. Authorized to work in the U.S. without employer sponsorship, 4. Need employer sponsorship now or in the future, 5. Another country or situation, 6. Unsure or prefer to skip. For option 5 or searches outside the U.S., ask which countries and whether sponsorship is needed. Use the answer to filter roles and ask before answering any application question the intake did not resolve |
-| Other deal-breakers | Add must-haves or exclusions |
-| Search cadence | On demand, weekdays, weekly, or custom |
 | Progress brief | After each run, weekly, or custom. Include preferred day, time, time zone, and destination |
 | Brag doc or portfolio, optional | Attach privately, ask for help building one, or skip |
 | Interview scheduling, optional | Working hours, time zone, buffer between meetings, and where to notify you for approval |
@@ -156,6 +154,8 @@ Use one rolling briefing per company and role. Link it from the Applications tab
 **At the bottom, keep dated post-interview notes.** After an interview, ask what they were asked, what landed, what surprised them, their thoughts on the role, and any promised next steps. Add their notes and clearly label their impressions. Preserve commitments, feedback, and relevant details from earlier rounds. When a new round is scheduled, replace outdated prep at the top with fresh prep, using the older notes for context. Refresh the next action and follow-up date in the tracker and propose relevant contact updates from the email thread. If the user skips the debrief, record that notes are pending and avoid inventing them.
 
 ## 8. Activate automatic mode
+
+**Standard search schedule:** every two hours Monday through Friday, and twice a day on Saturday and Sunday, at 9 a.m. and 5 p.m. in the user’s confirmed time zone. Use this schedule without a separate cadence question. Include it in the setup recap for approval. If the platform cannot support it, explain the constraint and ask before registering a different schedule.
 
 1. Run a small first batch. Show the Sheet, up to five leads, one résumé comparison, and any connection gaps. Let the user tune the match rules and approve the schedules and notification channel once.
 2. Register the actual background jobs using the platform’s scheduler. Set up recurring searches and tracker updates, recruiting inbox checks or a supported email trigger, and separate progress briefs. If the platform needs separate tasks, have each use the same private tracker, Skills & Preferences sheet, and approved configuration. Verify that scheduled runs can access the required connectors and notify the user while the chat is closed. Report each task’s schedule and next run after creation succeeds.
