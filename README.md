@@ -61,7 +61,7 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Auto-apply exclusions | If Auto-apply is selected, ask what to skip using the question below |
 | Auto-apply permission | Confirm allowed destinations and which résumé files and factual answers may be shared |
 | Work setup and location | Remote, hybrid, or in person. Include eligible locations, commute or relocation limits, and time zones if relevant |
-| Pay floor and target | Amount, currency, and annual base or hourly. Say whether to include roles with undisclosed pay |
+| Minimum annual and hourly pay | Ask for both minimum annual base salary and minimum hourly rate, with currency. Accept **No minimum** or **Not applicable** for either field |
 | Work authorization | Countries where you can work and where you need sponsorship. Yes, no, or unsure is enough |
 | Other deal-breakers | Add must-haves or exclusions |
 | Search cadence | On demand, weekdays, weekly, or custom |
@@ -93,7 +93,7 @@ Search chosen titles across employer career pages, public job boards, startup bo
 | 🔵 Worth checking | Promising role with unknown pay, a pay range that crosses the floor, unclear sponsorship, or a key requirement to verify |
 | 🟠 Stretch | Material experience gap or confirmed compensation below the floor, shown only if the user wants stretch results |
 
-Search only the employment types and programs the user selected. For contract, freelance, and part-time roles, surface expected hours, duration, work setup, and pay in the units published. Use the relevant pay floor and flag unknowns. For fellowships and apprenticeships, check the official program listing for eligibility against the user’s work history and career stage, including experience limits, location or work authorization requirements, application deadline, program dates, and pay or stipend. Distinguish confirmed eligibility from details the user needs to verify.
+Search only the employment types and programs the user selected. For contract, freelance, and part-time roles, surface expected hours, duration, work setup, and pay in the units published. Compare annual base salary against the annual minimum and hourly pay against the hourly minimum. Keep the two minimums separate. Flag compensation that is missing or cannot be compared on the published basis. For fellowships and apprenticeships, check the official program listing for eligibility against the user’s work history and career stage, including experience limits, location or work authorization requirements, application deadline, program dates, and pay or stipend. Distinguish confirmed eligibility from details the user needs to verify.
 
 Show why each role fits and what to double-check. Keep the match label separate from the application stage. Treat confirmed hard deal-breakers as exclusions. If no pay floor is set, ask before using green.
 
