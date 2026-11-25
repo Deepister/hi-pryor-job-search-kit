@@ -21,7 +21,7 @@ When the user sends **Run** after sharing this repository link in the same chat,
 | --- | --- | --- |
 | Web search and page access | Find current roles and verify sources | User supplies postings or job descriptions |
 | Google Drive and Sheets access | Read user-selected files and create or update their private tracker | Return a table or CSV for manual import |
-| Gmail or supported email, optional | Read job-search threads, draft replies, and send approved replies where supported | User pastes selected threads and sends replies manually |
+| Gmail or supported email, required for full setup | Read recruiting threads, update the tracker and contacts, and handle replies where supported | Ask the user to connect their email before full setup. Offer a reduced mode only if they choose it |
 | Calendar, optional | Check availability and record approved interview times | User provides availability and adds events manually |
 | Docs or equivalent document editor, optional | Maintain rolling interview briefings in Drive | Return a briefing the user can paste |
 | LinkedIn discovery, optional | Find accessible job listings and hiring posts | Use public results, employer sites, and user-supplied links or post text |
@@ -65,10 +65,9 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Work authorization | For U.S. searches, offer numbered choices: 1. U.S. citizen, 2. U.S. permanent resident, 3. Authorized to work in the U.S. without employer sponsorship, 4. Need employer sponsorship now or in the future, 5. Another country or situation, 6. Unsure or prefer to skip. For option 5 or searches outside the U.S., ask which countries and whether sponsorship is needed. Use the answer to filter roles and ask before answering any application question the intake did not resolve |
 | Brag doc or portfolio, optional | Attach privately, ask for help building one, or skip |
 | Interview scheduling, optional | Working hours, time zone, buffer between meetings, and where to notify you for approval |
-| Routine email replies | Offer to send simple acknowledgments and previously approved materials automatically. Confirm what may be sent and to whom, subject to the email tool’s permissions |
+| Routine email replies | Include acknowledgments and previously approved materials in the email setup. Confirm what may be sent and to whom, subject to the email tool’s permissions |
 | Portfolio link, optional | Save the public portfolio URL and ask whether it may be shared with recruiters |
 | Email sign-off | Exact closing and name, such as “Best, Alex,” or “use my existing signature” or “no sign-off” |
-| Inbox check cadence | Use a new-email trigger when available, or choose how often to check relevant recruiting threads |
 
 **What’s a brag doc?** It’s a private inventory of work you’ve done. Old résumés, campaigns, side projects, feedback, and small wins all count. A résumé has limited space. A brag doc lets the agent pull a stronger, relevant example for each role. To build one, offer to review user-selected materials and ask what they did, which tools they used, and what changed. Record the project, contribution, outcome, and evidence. Mark estimates and unverified details for review. Work can be worth including even when it has no metric.
 
@@ -135,7 +134,7 @@ At the start of every manual or scheduled run, read both tabs and use the latest
 
 ## 6. Handle recruiter replies and scheduling
 
-When an authorized inbox scan finds a recruiting reply or interview invitation, identify the company, role, round, sender, requested action, and deadline. Match it to the application and contact records. Use an inbox trigger where available and enabled, otherwise check on the agreed schedule or on demand.
+When an authorized inbox scan finds a recruiting reply or interview invitation, identify the company, role, round, sender, requested action, and deadline. Match it to the application and contact records. Include inbox monitoring automatically after the user connects their email and approves the automation in the setup recap. Use a new-email trigger where available. Otherwise check recruiting email on the same schedule as job searches. If the platform cannot run inbox checks in the background, report the limitation during setup.
 
 Reply in the original thread with the user’s sign-off. If the user enabled routine replies, handle acknowledgments and requests for already approved information within their standing authorization and the platform’s send rules. For example, send a verified public portfolio link the user approved for recruiters. When a reply needs new information, ask only for the missing detail. If a recruiter asks for a portfolio and there is no approved link, ask **“They asked for a portfolio. What link should I send?”** If the user has no portfolio, ask whether they want to share a relevant work sample or reply that one is unavailable. Never make up a link or send unapproved files.
 
@@ -182,7 +181,7 @@ Built by [Deepister](https://github.com/Deepister) for [Hi.Pryor](https://www.in
 
 ## Organize Gmail by application stage
 
-During setup, offer Gmail organization and check that the connected tool can create labels and apply or remove them on threads. If enabled, create or reuse a **Job Search** parent label and its three sublabels:
+During email setup, include Gmail organization by default and check that the connected tool can create labels and apply or remove them on threads. If supported and authorized, create or reuse a **Job Search** parent label and its three sublabels:
 
 - **Job Search/Applied** — a confirmed submission or application receipt.
 - **Job Search/Interviewing** — an explicit invitation or an interview in progress.
