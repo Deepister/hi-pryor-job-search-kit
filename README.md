@@ -62,7 +62,7 @@ Choices: **Full-time only**, **Include contract or freelance**, **Include part-t
 | Auto-apply permission | Confirm allowed destinations and which résumé files and factual answers may be shared |
 | Work setup and location | Remote, hybrid, or in person. Include eligible locations, commute or relocation limits, and time zones if relevant |
 | Minimum annual and hourly pay | Ask for both minimum annual base salary and minimum hourly rate, with currency. Accept **No minimum** or **Not applicable** for either field |
-| Work authorization | Countries where you can work and where you need sponsorship. Yes, no, or unsure is enough |
+| Work authorization | For U.S. searches, offer numbered choices: 1. U.S. citizen, 2. U.S. permanent resident, 3. Authorized to work in the U.S. without employer sponsorship, 4. Need employer sponsorship now or in the future, 5. Another country or situation, 6. Unsure or prefer to skip. For option 5 or searches outside the U.S., ask which countries and whether sponsorship is needed. Use the answer to filter roles and ask before answering any application question the intake did not resolve |
 | Other deal-breakers | Add must-haves or exclusions |
 | Search cadence | On demand, weekdays, weekly, or custom |
 | Progress brief | After each run, weekly, or custom. Include preferred day, time, time zone, and destination |
